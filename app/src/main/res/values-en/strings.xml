@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main menu -->
+    <string name="take_photo">Take photo</string>
+    <string name="gallery">Gallery</string>
+    <string name="calendar">Calendar</string>
+    <string name="stats">Statistics</string>
+    <string name="export">Export</string>
+    <string name="settings">Settings</string>
+
+    <!-- Settings activity -->
+    <string name="notifications">Notifications</string>
+    <string name="video_settings">Video</string>
+    <string name="backup">Kopia zapasowa</string>
+    <string name="account_settings">Ustawienia konta</string>
+    <string name="general">General</string>
+    <string name="changeLang">Change language</string>
+    <string name="quality">Quality</string>
+    <string name="logout">Log out</string>
+    <string name="dailyNotificatio">Reminder</string>
+    <string name="setTime">Clock</string>
+    <string name="sound">Sound</string>
+    <string name="vibra">Vibration</string>
+    <string name="audio">Audio</string>
+    <string name="fps">Frames per second</string>
+    <string name="quality_choose">Choose quality</string>
+
+    <!-- Notification -->
+    <string name="alarm_description">DESCRIPTION</string>
+    <string name="set_alarm">Set alarm</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="ok_btn">Ok</string>
+
+    <!-- Stats -->
+    <string name="your_stats">STATISTICS</string>
+    <string name="using_app_since">You are using this app since</string>
+    <string name="number_of_days">Number of days</string>
+    <string name="number_of_photos">Number of photos</string>
+    <string name="photos_per_day">Photos per day</string>
+
+    <string name="ffmpeg_wait">Please wait</string>
+</resources>

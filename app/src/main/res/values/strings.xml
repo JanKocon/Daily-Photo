@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Daily Photo</string>
+    <!-- Main menu -->
+    <string name="take_photo">Zrób zdjęcie</string>
+    <string name="gallery">Galeria</string>
+    <string name="calendar">Kalendarz</string>
+    <string name="stats">Statystyki</string>
+    <string name="export">Eksportuj</string>
+    <string name="settings">Ustawienia</string>
+
+    <!-- Settings activity -->
+    <string name="notifications">Powiadomienia</string>
+    <string name="video_settings">Wideo</string>
+    <string name="backup">Kopia zapasowa</string>
+    <string name="account_settings">Ustawienia konta</string>
+    <string name="general">Ogólne</string>
+    <string name="changeLang">Zmień język</string>
+    <string name="quality">Jakość zdjęć</string>
+    <string name="logout">Wyloguj</string>
+    <string name="dailyNotificatio">Codzienne powiadomienia</string>
+    <string name="setTime">Ustaw czas</string>
+    <string name="sound">Dzwiek</string>
+    <string name="vibra">Wibracje</string>
+    <string name="audio">Audio</string>
+    <string name="fps">Klatki na sekunde</string>
+    <string name="quality_choose">Wybierz jakość zdjęć</string>
+
+
+
+
+    <!-- Notification -->
+    <string name="alarm_description">Uwiecznij chwilę z Daily Photo</string>
+    <string name="set_alarm">Ustaw powiadomienie</string>
+    <string name="cancel_btn">Anuluj</string>
+    <string name="ok_btn">Zatwierdz</string>
+
+    <!-- Stats -->
+    <string name="your_stats">STATYSTYKI</string>
+    <string name="using_app_since">Używasz aplikacji od</string>
+    <string name="number_of_days">Liczba dni</string>
+    <string name="number_of_photos">Liczba zdjęć</string>
+    <string name="photos_per_day">Zdjęcia na dzień</string>
+
+
+    <string name="ffmpeg_failure">Nieoczekiwany błąd</string>
+    <string name="ffmpeg_process">Process...</string>
+    <string name="ffmpeg_wait">Proszę czekać</string>
+
+</resources>
+

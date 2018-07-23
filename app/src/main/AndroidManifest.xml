@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.jan.praca">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Menu"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".AlarmReceiver" />
+        <receiver
+            android:name=".DeviceBootReciver"
+            android:directBootAware="true"
+            android:enabled="true"
+            tools:ignore="UnusedAttribute">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+        <service android:name=".SingOut"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Camera"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".FFMPEG"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GDriveUpload"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GalleryMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Callendar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Wideo"
+            android:screenOrientation="landscape" />
+        <activity android:name=".GDriveDownload"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Splash"
+            android:screenOrientation="portrait"
+            android:noHistory="true"/>
+        <activity android:name=".Stats"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Settings"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

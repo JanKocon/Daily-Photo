@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.jan.praca.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<!--Thumbnail of gallery item-->
+    <ImageView
+        android:id="@+id/imageViewThumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:padding="2dp"
+        android:layout_marginBottom="2dp"/>
+
+
+</com.example.jan.praca.SquareLayout>
