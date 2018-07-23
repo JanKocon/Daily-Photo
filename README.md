@@ -3,11 +3,9 @@ A mobile application for recording visual changes taking place over time.
 
 Daily Photo allows you to create a memorable video from your life.
 Take daily photos and notice how things change over time.
-App works with Google Drive storage that allows to create backups, so changing the mobile devices has no effect on long term use.
-The application contains a notification system that makes the user do not have to remember to make everyday photos to use the program effectively.
-The implemented calendar and statistics system provided a clear preview
-user's progress in the application.
-
+App works with Google Drive storage that allows to create backups, so changing the mobile devices has no effect on long term usage.
+The application contains a notification system that reminds user to take a photo every day.
+The implemented calendar and statistics system provide a clear preview of user progress in time.
 ###
 The APP is based on:
 - [Google Drive Android API](https://developers.google.com/drive/android/intro) (backup data)
